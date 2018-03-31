@@ -1,0 +1,16 @@
+PODS:
+  - YangRoute (0.1.0)
+
+DEPENDENCIES:
+  - YangRoute (from `../`)
+
+EXTERNAL SOURCES:
+  YangRoute:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  YangRoute: a0a1db0be9d28ae17578ebfca4813bcd00e01815
+
+PODFILE CHECKSUM: 204488c462663a4ba93566599957d15e99a476db
+
+COCOAPODS: 1.2.1

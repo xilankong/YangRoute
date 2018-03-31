@@ -1,0 +1,100 @@
+<html>
+    <head>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+	
+    	<!-- JQuery isn't needed for JockeyJS, just used in this example. --> 
+		<script type="text/javascript" src="jquery-1.9.1.js"></script>
+
+		<!-- Required includes. json2.js may not be required in specific instances. -->
+		<script type="text/javascript" src="jockey.js"></script>
+
+		<script type="text/javascript">
+			$(document).ready(function() {
+			
+				// Tell the iOS app to toggle fullscreen mode.
+				$("#toggle-back").on("click", function() {
+					Jockey.send("toggle-back");
+				});
+				
+				// Tell the iOS app to toggle fullscreen mode, passing a duration of
+				// one second, and doing something (an alert) once the action is finishd.
+				$("#toggle-talk").on("click", function() {
+					Jockey.send("toggle-talk-with-callback", {
+						text: "你好啊!"
+					}, function() {
+						alert("对话结束！");
+					});
+				});
+				
+				// Tell the iOS app to NSLog the background color of the page.
+				$("#jump").on("click", function() {
+					Jockey.send("jump", {
+                        routeId:"10001",
+                        routeParams:{
+                            vcName:"ViewControllerTwo"
+                        }
+					});
+				});
+				
+				// Change the color of the backgound based on a color that's
+				// sent from the iOS app.
+				Jockey.on("color-change", function(payload) {
+					$(document.body).css("background", payload.color);
+				});
+                Jockey.on("toggle-talk-response", function(payload) {
+                    alert(payload.response);
+                });
+			});
+		</script>
+    
+        <style>
+        	body {
+        		background-color: #FFF;
+        	}
+        
+            button {
+                font-size: 20px;
+                margin-top: 5px;
+                margin-bottom: 5px;
+            }
+            
+            button.show {
+            	width: 200px;
+            }
+            
+            button.hide {
+            	width: 80px;
+            }
+            
+            img {
+            	width: 100%;
+            }
+            
+            .gray {
+                color: #777;
+            }
+        </style>
+        
+    </head>
+<body>
+
+    <b>Send message from JS -> App</b>
+    <br><span class="gray">Remember: this is a UIWebView.</span>
+    <br><br>
+    
+    <button id="toggle-back" class="slow">返回上一层</button>
+    <button id="toggle-talk" class="slow">对OC说你好</button>
+    
+    <br>
+    
+    <button id="jump">跳转到一个控制器Two去</button>
+    
+    <br><br>
+    
+    <b>Send message from App -> JS</b>
+    <br><span class="gray">Tap the color buttons below to change the web view's background color. Or click "Show Image" to display an image in the web view.</span>
+    
+        
+</body>
+</html>
+

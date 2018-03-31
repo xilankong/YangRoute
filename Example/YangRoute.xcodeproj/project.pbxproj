@@ -21,6 +21,12 @@
 		6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
+		6FC90883206F36710081BD37 /* Target_commonActions.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FC90882206F36710081BD37 /* Target_commonActions.m */; };
+		6FC90887206F58920081BD37 /* ViewControllerWeb.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FC90885206F58920081BD37 /* ViewControllerWeb.m */; };
+		6FC90888206F58920081BD37 /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = 6FC90886206F58920081BD37 /* index.html */; };
+		6FC9088B206F5DF20081BD37 /* jquery-1.9.1.js in Resources */ = {isa = PBXBuildFile; fileRef = 6FC90889206F5DF20081BD37 /* jquery-1.9.1.js */; };
+		6FC9088C206F5DF20081BD37 /* jockey.js in Resources */ = {isa = PBXBuildFile; fileRef = 6FC9088A206F5DF20081BD37 /* jockey.js */; };
+		6FC9088F206F6ADF0081BD37 /* ViewControllerTwo.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FC9088D206F6ADE0081BD37 /* ViewControllerTwo.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
 		F3BD1C7D1A9113D2FEDC0149 /* Pods_YangRoute_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 842518734BEE4C4E9877CA9A /* Pods_YangRoute_Example.framework */; };
@@ -39,7 +45,7 @@
 /* Begin PBXFileReference section */
 		15ECF006655FB6A0A0CC477C /* Pods-YangRoute_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YangRoute_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YangRoute_Tests/Pods-YangRoute_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		17E5A8D05E9CB040589EE112 /* Pods-YangRoute_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YangRoute_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-YangRoute_Tests/Pods-YangRoute_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		1DD0FED230EBCAA6C0C7D57E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		1DD0FED230EBCAA6C0C7D57E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* YangRoute_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YangRoute_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -59,13 +65,22 @@
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
+		6FC90881206F36710081BD37 /* Target_commonActions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Target_commonActions.h; sourceTree = "<group>"; };
+		6FC90882206F36710081BD37 /* Target_commonActions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Target_commonActions.m; sourceTree = "<group>"; };
+		6FC90884206F58920081BD37 /* ViewControllerWeb.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewControllerWeb.h; sourceTree = SOURCE_ROOT; };
+		6FC90885206F58920081BD37 /* ViewControllerWeb.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewControllerWeb.m; sourceTree = SOURCE_ROOT; };
+		6FC90886206F58920081BD37 /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = index.html; sourceTree = SOURCE_ROOT; };
+		6FC90889206F5DF20081BD37 /* jquery-1.9.1.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "jquery-1.9.1.js"; sourceTree = SOURCE_ROOT; };
+		6FC9088A206F5DF20081BD37 /* jockey.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = jockey.js; sourceTree = SOURCE_ROOT; };
+		6FC9088D206F6ADE0081BD37 /* ViewControllerTwo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewControllerTwo.m; sourceTree = "<group>"; };
+		6FC9088E206F6ADF0081BD37 /* ViewControllerTwo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewControllerTwo.h; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		842518734BEE4C4E9877CA9A /* Pods_YangRoute_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YangRoute_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9E165B1FCD493D357CD026C8 /* Pods_YangRoute_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YangRoute_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA41F6D2C29AF3A82699A12D /* Pods-YangRoute_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YangRoute_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-YangRoute_Example/Pods-YangRoute_Example.release.xcconfig"; sourceTree = "<group>"; };
-		D04A67F3292D20905A520686 /* YangRoute.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = YangRoute.podspec; path = ../YangRoute.podspec; sourceTree = "<group>"; };
-		ED7CE07DD018B3A6351100F7 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		D04A67F3292D20905A520686 /* YangRoute.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = YangRoute.podspec; path = ../YangRoute.podspec; sourceTree = "<group>"; };
+		ED7CE07DD018B3A6351100F7 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		F7CEB3D284090C7687A2B8F0 /* Pods-YangRoute_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YangRoute_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YangRoute_Example/Pods-YangRoute_Example.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -132,11 +147,20 @@
 		6003F593195388D20070C39A /* Example for YangRoute */ = {
 			isa = PBXGroup;
 			children = (
+				6FC90886206F58920081BD37 /* index.html */,
+				6FC9088A206F5DF20081BD37 /* jockey.js */,
+				6FC90889206F5DF20081BD37 /* jquery-1.9.1.js */,
+				6FC90884206F58920081BD37 /* ViewControllerWeb.h */,
+				6FC90885206F58920081BD37 /* ViewControllerWeb.m */,
 				6003F59C195388D20070C39A /* YangAppDelegate.h */,
 				6003F59D195388D20070C39A /* YangAppDelegate.m */,
+				6FC90881206F36710081BD37 /* Target_commonActions.h */,
+				6FC90882206F36710081BD37 /* Target_commonActions.m */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
 				6003F5A5195388D20070C39A /* YangViewController.h */,
 				6003F5A6195388D20070C39A /* YangViewController.m */,
+				6FC9088E206F6ADF0081BD37 /* ViewControllerTwo.h */,
+				6FC9088D206F6ADE0081BD37 /* ViewControllerTwo.m */,
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
@@ -279,7 +303,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6FC90888206F58920081BD37 /* index.html in Resources */,
+				6FC9088C206F5DF20081BD37 /* jockey.js in Resources */,
 				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
+				6FC9088B206F5DF20081BD37 /* jquery-1.9.1.js in Resources */,
 				71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
@@ -395,7 +422,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				6003F59E195388D20070C39A /* YangAppDelegate.m in Sources */,
+				6FC90883206F36710081BD37 /* Target_commonActions.m in Sources */,
 				6003F5A7195388D20070C39A /* YangViewController.m in Sources */,
+				6FC9088F206F6ADF0081BD37 /* ViewControllerTwo.m in Sources */,
+				6FC90887206F58920081BD37 /* ViewControllerWeb.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

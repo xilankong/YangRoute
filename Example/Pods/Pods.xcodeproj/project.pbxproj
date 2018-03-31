@@ -1,0 +1,804 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		02F4DCB0D0754B3FF7478917D51055D3 /* Target_RouteParserActions.m in Sources */ = {isa = PBXBuildFile; fileRef = FB992A2C05ACA607F059F2ABC72F46D6 /* Target_RouteParserActions.m */; };
+		088758EF59260CD2F5967619F9E148B4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		15ACA4B57138028483E29AD0329D35EC /* Jockey.m in Sources */ = {isa = PBXBuildFile; fileRef = 95E903F89973DF31595AB0229F40EB32 /* Jockey.m */; };
+		22133432FBBFC54806C63ACE76D67714 /* Pods-YangRoute_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C3919CD2E1EA8FA938F0A50467D5B5CC /* Pods-YangRoute_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		44DE42EC954FD85A6D98DEA1A1CA3124 /* YangTarget.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C04A82B03E8FD0A1FEA99D72366B879 /* YangTarget.m */; };
+		471A8BE7DBBCAD97AE95F2EFF59CA6AB /* NSObject+SafePerformSEL.m in Sources */ = {isa = PBXBuildFile; fileRef = D45A8A7874CCF65B849E9EF5650C21A3 /* NSObject+SafePerformSEL.m */; };
+		57865C7A6ED2256DCAA2D69D9BBB719C /* NSObject+SafePerformSEL.h in Headers */ = {isa = PBXBuildFile; fileRef = CFD3CADA878917BFD2AB3D2A31DF3AC6 /* NSObject+SafePerformSEL.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		61D785F565D9CED0DE275120DBFC3BA3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		622722ECE8FA3EB0FE5D8836A323741B /* YangRoute+CommonActions.h in Headers */ = {isa = PBXBuildFile; fileRef = 5757C1B196EB2D4AD50666026FE8B52D /* YangRoute+CommonActions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6DBD3223B6B5ECB77C8E8DCF88B9FD34 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		7F8A4430F9E3B033DBA81F0CF07A9DDF /* Pods-YangRoute_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 52253FD0046A1194D18A33D9C0B194D8 /* Pods-YangRoute_Tests-dummy.m */; };
+		8C47B2B446823986DE8BDE6BE9304CEE /* YangTarget.h in Headers */ = {isa = PBXBuildFile; fileRef = 53C05522176517C18A8201D806DE67F5 /* YangTarget.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		97DB96A24079B9170C6689725728FC49 /* YangRoute.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F2EF4088B8ED4900DD3B52F7F7681F9 /* YangRoute.m */; };
+		A1EFC6FA3ACCDCB10163EEDAF5004D79 /* YangRoute-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 93758A44B5B85D1AA0B4C040D7774C1B /* YangRoute-dummy.m */; };
+		A99578F48E73DB57CEA5297CC79649DF /* YangRoute.h in Headers */ = {isa = PBXBuildFile; fileRef = 25F31468C3BA00F42ABACD983513E468 /* YangRoute.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B062CE20B37F7AAE2C47D18D7F3EEBF1 /* Pods-YangRoute_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9121E7B27645CBF58DBBBDB98374F0F8 /* Pods-YangRoute_Example-dummy.m */; };
+		BAA656E357B17F5545BB7B31F5C4F447 /* Target_RouteParserActions.h in Headers */ = {isa = PBXBuildFile; fileRef = 625B56AB663A93F6EABEA021466AF8D4 /* Target_RouteParserActions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BC96339EEA4E1177F13EDF35BCF39C9A /* Jockey.h in Headers */ = {isa = PBXBuildFile; fileRef = 5450AD6FFCED708FE6778E70FFD736A2 /* Jockey.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D63EA7F1A289DBFD470F9599F5DBDC55 /* YangRoute+CommonActions.m in Sources */ = {isa = PBXBuildFile; fileRef = 3404F047F5BFC366BC6930C1B5AB19E4 /* YangRoute+CommonActions.m */; };
+		EFD3F58EE32FBF3E21B7DCCEAB9BBC64 /* YangRoute-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A79BBA45B665C6266C0819D1458EBF0B /* YangRoute-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F280C16D9ABD4DF0DE25C1C3C13AB65C /* Pods-YangRoute_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B10F8C8EFE9EB2AAD44BABE1237CA988 /* Pods-YangRoute_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		077DFF9A6FC9F7C71299D4B07C06ADA5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A4B83F6D34024D66B16123A500731D57;
+			remoteInfo = YangRoute;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		07AA79209A8B00458DBF6FB9B24958E0 /* Pods-YangRoute_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YangRoute_Example-resources.sh"; sourceTree = "<group>"; };
+		07B14CBED6DC72E1B1117D7E5BD96BE2 /* Pods_YangRoute_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_YangRoute_Tests.framework; path = "Pods-YangRoute_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		196536F8B83B71149FFA83306DE867CB /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		25AF2E1EDE5B47D16CA648CDDFE6F64F /* YangRoute.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = YangRoute.framework; path = YangRoute.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		25F31468C3BA00F42ABACD983513E468 /* YangRoute.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = YangRoute.h; sourceTree = "<group>"; };
+		2F2EF4088B8ED4900DD3B52F7F7681F9 /* YangRoute.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = YangRoute.m; sourceTree = "<group>"; };
+		331345444B59926B0218224EB7C4A946 /* Pods-YangRoute_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YangRoute_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		3404F047F5BFC366BC6930C1B5AB19E4 /* YangRoute+CommonActions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "YangRoute+CommonActions.m"; sourceTree = "<group>"; };
+		3A5D6D67E30E3A65E8D5B762708E226F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4E1599B6C26153AEEB6FDD57DA603691 /* Pods-YangRoute_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-YangRoute_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		51429E8172B1D86688CB6D8009C62EAF /* YangRoute.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YangRoute.xcconfig; sourceTree = "<group>"; };
+		52253FD0046A1194D18A33D9C0B194D8 /* Pods-YangRoute_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-YangRoute_Tests-dummy.m"; sourceTree = "<group>"; };
+		53C05522176517C18A8201D806DE67F5 /* YangTarget.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = YangTarget.h; sourceTree = "<group>"; };
+		5450AD6FFCED708FE6778E70FFD736A2 /* Jockey.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Jockey.h; sourceTree = "<group>"; };
+		5732C115DC0539615A4B8CA8CB0F10CE /* Pods-YangRoute_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YangRoute_Tests-resources.sh"; sourceTree = "<group>"; };
+		5757C1B196EB2D4AD50666026FE8B52D /* YangRoute+CommonActions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YangRoute+CommonActions.h"; sourceTree = "<group>"; };
+		5AE0535DAD31CBB794E97080A7250F97 /* YangRoute-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YangRoute-prefix.pch"; sourceTree = "<group>"; };
+		5BF5C7F0807774816E3AE85D410DDE73 /* Pods-YangRoute_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-YangRoute_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		625B56AB663A93F6EABEA021466AF8D4 /* Target_RouteParserActions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Target_RouteParserActions.h; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		7C04A82B03E8FD0A1FEA99D72366B879 /* YangTarget.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = YangTarget.m; sourceTree = "<group>"; };
+		821AB39882C7DF95AD021CF5E7EEE1CA /* Pods-YangRoute_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YangRoute_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		8444CE228D7F72A11237CF2E0EAB0CF4 /* Pods-YangRoute_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YangRoute_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		8FA7C4B7E5AC4941F2FFECF1B53CCC38 /* Pods-YangRoute_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YangRoute_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		907685329D8127BBDBD9C7BF1578B0B2 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9121E7B27645CBF58DBBBDB98374F0F8 /* Pods-YangRoute_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-YangRoute_Example-dummy.m"; sourceTree = "<group>"; };
+		93758A44B5B85D1AA0B4C040D7774C1B /* YangRoute-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "YangRoute-dummy.m"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		95E903F89973DF31595AB0229F40EB32 /* Jockey.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = Jockey.m; sourceTree = "<group>"; };
+		9699B7DB47570EA6680E7CAFF50E5D69 /* Pods-YangRoute_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YangRoute_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		A4DC5B51667F96E25C15CF7D81B32F99 /* Pods-YangRoute_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-YangRoute_Example.modulemap"; sourceTree = "<group>"; };
+		A79BBA45B665C6266C0819D1458EBF0B /* YangRoute-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YangRoute-umbrella.h"; sourceTree = "<group>"; };
+		AD7B70F7DA53CC1B55890328EE7A43C5 /* Pods-YangRoute_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YangRoute_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		ADBC88A11774337251D0016BD8EF7178 /* Pods-YangRoute_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YangRoute_Example-frameworks.sh"; sourceTree = "<group>"; };
+		B10F8C8EFE9EB2AAD44BABE1237CA988 /* Pods-YangRoute_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-YangRoute_Example-umbrella.h"; sourceTree = "<group>"; };
+		C3919CD2E1EA8FA938F0A50467D5B5CC /* Pods-YangRoute_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-YangRoute_Tests-umbrella.h"; sourceTree = "<group>"; };
+		C71CC70153EDD60FF9FFA4DF6E182334 /* Pods-YangRoute_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YangRoute_Example.release.xcconfig"; sourceTree = "<group>"; };
+		CFD3CADA878917BFD2AB3D2A31DF3AC6 /* NSObject+SafePerformSEL.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSObject+SafePerformSEL.h"; sourceTree = "<group>"; };
+		D45A8A7874CCF65B849E9EF5650C21A3 /* NSObject+SafePerformSEL.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSObject+SafePerformSEL.m"; sourceTree = "<group>"; };
+		D737D6F33795B29CB5D5F3C8D0A717B8 /* Pods-YangRoute_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-YangRoute_Tests.modulemap"; sourceTree = "<group>"; };
+		DF53CB337095682F56DFB9FB97D262BF /* YangRoute.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = YangRoute.modulemap; sourceTree = "<group>"; };
+		EBB51BD6289B313B345ED51062B39E0B /* Pods_YangRoute_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_YangRoute_Example.framework; path = "Pods-YangRoute_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB992A2C05ACA607F059F2ABC72F46D6 /* Target_RouteParserActions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = Target_RouteParserActions.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		84CEFC88C031AEF6E1B68A62C85FE788 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				088758EF59260CD2F5967619F9E148B4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE4B07699AD74ABF4BB62DFD84205352 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61D785F565D9CED0DE275120DBFC3BA3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFE1DBAAFE474AE52ADF4D0A1B531EF2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6DBD3223B6B5ECB77C8E8DCF88B9FD34 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		30C34A46BF16A5689594822821A87821 /* JockeyJS */ = {
+			isa = PBXGroup;
+			children = (
+				5450AD6FFCED708FE6778E70FFD736A2 /* Jockey.h */,
+				95E903F89973DF31595AB0229F40EB32 /* Jockey.m */,
+			);
+			name = JockeyJS;
+			path = JockeyJS;
+			sourceTree = "<group>";
+		};
+		3DF58FEE3FD0F9238E2E8C4BDE869CDB /* Target */ = {
+			isa = PBXGroup;
+			children = (
+				625B56AB663A93F6EABEA021466AF8D4 /* Target_RouteParserActions.h */,
+				FB992A2C05ACA607F059F2ABC72F46D6 /* Target_RouteParserActions.m */,
+				53C05522176517C18A8201D806DE67F5 /* YangTarget.h */,
+				7C04A82B03E8FD0A1FEA99D72366B879 /* YangTarget.m */,
+			);
+			name = Target;
+			path = Target;
+			sourceTree = "<group>";
+		};
+		47EC11D621923163807A362ADA35431F /* YangRoute */ = {
+			isa = PBXGroup;
+			children = (
+				8DD004353B49919E6AD863A6649182A6 /* Support Files */,
+				B69AD278E1419C7B58276156B0CDE69F /* YangRoute */,
+			);
+			name = YangRoute;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		5CF3BDC75E1DD9A86C1B9309D0998F9D /* Custom */ = {
+			isa = PBXGroup;
+			children = (
+				5757C1B196EB2D4AD50666026FE8B52D /* YangRoute+CommonActions.h */,
+				3404F047F5BFC366BC6930C1B5AB19E4 /* YangRoute+CommonActions.m */,
+			);
+			name = Custom;
+			path = Custom;
+			sourceTree = "<group>";
+		};
+		5EE5B78C2FFE2EB200B6CDEAD6C11C0A /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				CFD3CADA878917BFD2AB3D2A31DF3AC6 /* NSObject+SafePerformSEL.h */,
+				D45A8A7874CCF65B849E9EF5650C21A3 /* NSObject+SafePerformSEL.m */,
+				95972DF097ABC61FE29505A39D77D478 /* Core */,
+				5CF3BDC75E1DD9A86C1B9309D0998F9D /* Custom */,
+				30C34A46BF16A5689594822821A87821 /* JockeyJS */,
+				3DF58FEE3FD0F9238E2E8C4BDE869CDB /* Target */,
+			);
+			name = Classes;
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		79BF1654A80B455B74A9D25430EBB72F /* Pods-YangRoute_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				196536F8B83B71149FFA83306DE867CB /* Info.plist */,
+				D737D6F33795B29CB5D5F3C8D0A717B8 /* Pods-YangRoute_Tests.modulemap */,
+				4E1599B6C26153AEEB6FDD57DA603691 /* Pods-YangRoute_Tests-acknowledgements.markdown */,
+				8FA7C4B7E5AC4941F2FFECF1B53CCC38 /* Pods-YangRoute_Tests-acknowledgements.plist */,
+				52253FD0046A1194D18A33D9C0B194D8 /* Pods-YangRoute_Tests-dummy.m */,
+				8444CE228D7F72A11237CF2E0EAB0CF4 /* Pods-YangRoute_Tests-frameworks.sh */,
+				5732C115DC0539615A4B8CA8CB0F10CE /* Pods-YangRoute_Tests-resources.sh */,
+				C3919CD2E1EA8FA938F0A50467D5B5CC /* Pods-YangRoute_Tests-umbrella.h */,
+				9699B7DB47570EA6680E7CAFF50E5D69 /* Pods-YangRoute_Tests.debug.xcconfig */,
+				AD7B70F7DA53CC1B55890328EE7A43C5 /* Pods-YangRoute_Tests.release.xcconfig */,
+			);
+			name = "Pods-YangRoute_Tests";
+			path = "Target Support Files/Pods-YangRoute_Tests";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				F151ED0B95328D858C2BDC66B08322B0 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				B2E86CB3F6EE5A10B9F2C514F818F98E /* Products */,
+				FDE218AB4429F1E8E13BDE050FCE8BF4 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8DD004353B49919E6AD863A6649182A6 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				907685329D8127BBDBD9C7BF1578B0B2 /* Info.plist */,
+				DF53CB337095682F56DFB9FB97D262BF /* YangRoute.modulemap */,
+				51429E8172B1D86688CB6D8009C62EAF /* YangRoute.xcconfig */,
+				93758A44B5B85D1AA0B4C040D7774C1B /* YangRoute-dummy.m */,
+				5AE0535DAD31CBB794E97080A7250F97 /* YangRoute-prefix.pch */,
+				A79BBA45B665C6266C0819D1458EBF0B /* YangRoute-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/YangRoute";
+			sourceTree = "<group>";
+		};
+		95972DF097ABC61FE29505A39D77D478 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				25F31468C3BA00F42ABACD983513E468 /* YangRoute.h */,
+				2F2EF4088B8ED4900DD3B52F7F7681F9 /* YangRoute.m */,
+			);
+			name = Core;
+			path = Core;
+			sourceTree = "<group>";
+		};
+		AE57E52C1975BB98AF29FCA149989181 /* Pods-YangRoute_Example */ = {
+			isa = PBXGroup;
+			children = (
+				3A5D6D67E30E3A65E8D5B762708E226F /* Info.plist */,
+				A4DC5B51667F96E25C15CF7D81B32F99 /* Pods-YangRoute_Example.modulemap */,
+				5BF5C7F0807774816E3AE85D410DDE73 /* Pods-YangRoute_Example-acknowledgements.markdown */,
+				821AB39882C7DF95AD021CF5E7EEE1CA /* Pods-YangRoute_Example-acknowledgements.plist */,
+				9121E7B27645CBF58DBBBDB98374F0F8 /* Pods-YangRoute_Example-dummy.m */,
+				ADBC88A11774337251D0016BD8EF7178 /* Pods-YangRoute_Example-frameworks.sh */,
+				07AA79209A8B00458DBF6FB9B24958E0 /* Pods-YangRoute_Example-resources.sh */,
+				B10F8C8EFE9EB2AAD44BABE1237CA988 /* Pods-YangRoute_Example-umbrella.h */,
+				331345444B59926B0218224EB7C4A946 /* Pods-YangRoute_Example.debug.xcconfig */,
+				C71CC70153EDD60FF9FFA4DF6E182334 /* Pods-YangRoute_Example.release.xcconfig */,
+			);
+			name = "Pods-YangRoute_Example";
+			path = "Target Support Files/Pods-YangRoute_Example";
+			sourceTree = "<group>";
+		};
+		B2E86CB3F6EE5A10B9F2C514F818F98E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EBB51BD6289B313B345ED51062B39E0B /* Pods_YangRoute_Example.framework */,
+				07B14CBED6DC72E1B1117D7E5BD96BE2 /* Pods_YangRoute_Tests.framework */,
+				25AF2E1EDE5B47D16CA648CDDFE6F64F /* YangRoute.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B69AD278E1419C7B58276156B0CDE69F /* YangRoute */ = {
+			isa = PBXGroup;
+			children = (
+				5EE5B78C2FFE2EB200B6CDEAD6C11C0A /* Classes */,
+			);
+			name = YangRoute;
+			path = YangRoute;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		F151ED0B95328D858C2BDC66B08322B0 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				47EC11D621923163807A362ADA35431F /* YangRoute */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		FDE218AB4429F1E8E13BDE050FCE8BF4 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				AE57E52C1975BB98AF29FCA149989181 /* Pods-YangRoute_Example */,
+				79BF1654A80B455B74A9D25430EBB72F /* Pods-YangRoute_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		7C45E50707A6C2A68F417BB50EA07E14 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC96339EEA4E1177F13EDF35BCF39C9A /* Jockey.h in Headers */,
+				57865C7A6ED2256DCAA2D69D9BBB719C /* NSObject+SafePerformSEL.h in Headers */,
+				BAA656E357B17F5545BB7B31F5C4F447 /* Target_RouteParserActions.h in Headers */,
+				622722ECE8FA3EB0FE5D8836A323741B /* YangRoute+CommonActions.h in Headers */,
+				EFD3F58EE32FBF3E21B7DCCEAB9BBC64 /* YangRoute-umbrella.h in Headers */,
+				A99578F48E73DB57CEA5297CC79649DF /* YangRoute.h in Headers */,
+				8C47B2B446823986DE8BDE6BE9304CEE /* YangTarget.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D86EF03D7DEED63634587B4846B89575 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22133432FBBFC54806C63ACE76D67714 /* Pods-YangRoute_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF2BF92D454F64FBC990DF567DB19763 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F280C16D9ABD4DF0DE25C1C3C13AB65C /* Pods-YangRoute_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		53899AD46A2CB58CA20D232D7EDCB9B1 /* Pods-YangRoute_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0E0348F45FB1EBC300F48192DE0B787C /* Build configuration list for PBXNativeTarget "Pods-YangRoute_Tests" */;
+			buildPhases = (
+				6A7FA9BD7980F306C4C42A0586B839D5 /* Sources */,
+				AE4B07699AD74ABF4BB62DFD84205352 /* Frameworks */,
+				D86EF03D7DEED63634587B4846B89575 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-YangRoute_Tests";
+			productName = "Pods-YangRoute_Tests";
+			productReference = 07B14CBED6DC72E1B1117D7E5BD96BE2 /* Pods_YangRoute_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A4B83F6D34024D66B16123A500731D57 /* YangRoute */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 95B0BE71FC41FF85EF4A06A872358729 /* Build configuration list for PBXNativeTarget "YangRoute" */;
+			buildPhases = (
+				0FF9C777B13F0E4B2C504D6D7F7E19AB /* Sources */,
+				CFE1DBAAFE474AE52ADF4D0A1B531EF2 /* Frameworks */,
+				7C45E50707A6C2A68F417BB50EA07E14 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YangRoute;
+			productName = YangRoute;
+			productReference = 25AF2E1EDE5B47D16CA648CDDFE6F64F /* YangRoute.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D5ED734756DA023DDAE2441FCB00013C /* Pods-YangRoute_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6C9AA6C8C9A630013B03F328A64A0B21 /* Build configuration list for PBXNativeTarget "Pods-YangRoute_Example" */;
+			buildPhases = (
+				37A8CAFE83FC18797CA2CDAE0ED9FA70 /* Sources */,
+				84CEFC88C031AEF6E1B68A62C85FE788 /* Frameworks */,
+				DF2BF92D454F64FBC990DF567DB19763 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				705031AAC22C35DCC7EF38AF5A87DEEC /* PBXTargetDependency */,
+			);
+			name = "Pods-YangRoute_Example";
+			productName = "Pods-YangRoute_Example";
+			productReference = EBB51BD6289B313B345ED51062B39E0B /* Pods_YangRoute_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = B2E86CB3F6EE5A10B9F2C514F818F98E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D5ED734756DA023DDAE2441FCB00013C /* Pods-YangRoute_Example */,
+				53899AD46A2CB58CA20D232D7EDCB9B1 /* Pods-YangRoute_Tests */,
+				A4B83F6D34024D66B16123A500731D57 /* YangRoute */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0FF9C777B13F0E4B2C504D6D7F7E19AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15ACA4B57138028483E29AD0329D35EC /* Jockey.m in Sources */,
+				471A8BE7DBBCAD97AE95F2EFF59CA6AB /* NSObject+SafePerformSEL.m in Sources */,
+				02F4DCB0D0754B3FF7478917D51055D3 /* Target_RouteParserActions.m in Sources */,
+				D63EA7F1A289DBFD470F9599F5DBDC55 /* YangRoute+CommonActions.m in Sources */,
+				A1EFC6FA3ACCDCB10163EEDAF5004D79 /* YangRoute-dummy.m in Sources */,
+				97DB96A24079B9170C6689725728FC49 /* YangRoute.m in Sources */,
+				44DE42EC954FD85A6D98DEA1A1CA3124 /* YangTarget.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37A8CAFE83FC18797CA2CDAE0ED9FA70 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B062CE20B37F7AAE2C47D18D7F3EEBF1 /* Pods-YangRoute_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A7FA9BD7980F306C4C42A0586B839D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F8A4430F9E3B033DBA81F0CF07A9DDF /* Pods-YangRoute_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		705031AAC22C35DCC7EF38AF5A87DEEC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = YangRoute;
+			target = A4B83F6D34024D66B16123A500731D57 /* YangRoute */;
+			targetProxy = 077DFF9A6FC9F7C71299D4B07C06ADA5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		6A1C34F111B3A2D4342FC07FD76B83F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C71CC70153EDD60FF9FFA4DF6E182334 /* Pods-YangRoute_Example.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-YangRoute_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-YangRoute_Example/Pods-YangRoute_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_YangRoute_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		823D750FEA7B09581282DDBFE56F4E31 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 331345444B59926B0218224EB7C4A946 /* Pods-YangRoute_Example.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-YangRoute_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-YangRoute_Example/Pods-YangRoute_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_YangRoute_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		827269710C98D60C14D46BC6AF9BF728 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		9442CA296BF9718580CF2672CA9EE8BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AD7B70F7DA53CC1B55890328EE7A43C5 /* Pods-YangRoute_Tests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-YangRoute_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-YangRoute_Tests/Pods-YangRoute_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_YangRoute_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		972DCCA409D4867AC7277F8795A40BBB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 51429E8172B1D86688CB6D8009C62EAF /* YangRoute.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/YangRoute/YangRoute-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/YangRoute/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/YangRoute/YangRoute.modulemap";
+				PRODUCT_NAME = YangRoute;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D796F128659FE2D43AB91CF1688A32CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		D8A8BEC5A04B78181745CE82B2293E4B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 51429E8172B1D86688CB6D8009C62EAF /* YangRoute.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/YangRoute/YangRoute-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/YangRoute/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/YangRoute/YangRoute.modulemap";
+				PRODUCT_NAME = YangRoute;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F812F5519C0A686B24F3297F4A411934 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9699B7DB47570EA6680E7CAFF50E5D69 /* Pods-YangRoute_Tests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-YangRoute_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-YangRoute_Tests/Pods-YangRoute_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_YangRoute_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0E0348F45FB1EBC300F48192DE0B787C /* Build configuration list for PBXNativeTarget "Pods-YangRoute_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F812F5519C0A686B24F3297F4A411934 /* Debug */,
+				9442CA296BF9718580CF2672CA9EE8BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D796F128659FE2D43AB91CF1688A32CA /* Debug */,
+				827269710C98D60C14D46BC6AF9BF728 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6C9AA6C8C9A630013B03F328A64A0B21 /* Build configuration list for PBXNativeTarget "Pods-YangRoute_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				823D750FEA7B09581282DDBFE56F4E31 /* Debug */,
+				6A1C34F111B3A2D4342FC07FD76B83F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		95B0BE71FC41FF85EF4A06A872358729 /* Build configuration list for PBXNativeTarget "YangRoute" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D8A8BEC5A04B78181745CE82B2293E4B /* Debug */,
+				972DCCA409D4867AC7277F8795A40BBB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

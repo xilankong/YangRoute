@@ -8,8 +8,12 @@
 
 @import UIKit;
 
+#define _UI ((YangAppDelegate *)[UIApplication sharedApplication].delegate).navigationController
+
 @interface YangAppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
+
+@property (nonatomic, strong) UINavigationController *navigationController;
 
 @end

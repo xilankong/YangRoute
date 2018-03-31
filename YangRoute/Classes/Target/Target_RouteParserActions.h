@@ -21,6 +21,12 @@
 
 @interface Target_RouteParserActions: YangTarget
 
+/**
+ 跳转指定VC
+ 
+ @param params 参数
+ @param completedHandler 回调
+ */
 - (void)action_yangRouteID_10001_Action:(NSDictionary *)params completed:(YangRouteCompletedHandle)completedHandler;
 
 

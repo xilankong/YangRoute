@@ -1,0 +1,6 @@
+framework module Pods_YangRoute_Example {
+  umbrella header "Pods-YangRoute_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
